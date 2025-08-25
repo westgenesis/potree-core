@@ -17,5 +17,13 @@ export interface RequestManager {
    * 
    * @param url - The URL of the resource to resolve.
    */
-  getUrl(url: string): Promise<string>;
+  getUrl(url: string): string | Promise<string>;
+
+  /**
+   * Optional function to replace the URL before fetching.
+   * 
+   * @param url - The original URL.
+   * @param type - Optional type of the resource.
+   */
+  replaceFn?: (url: string, type?: string) => string | Promise<string>;
 }

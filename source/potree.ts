@@ -73,7 +73,7 @@ export class Potree implements IPotree
 	public lru = new LRU(this._pointBudget);
 
 	public async loadPointCloud(url: string, baseUrl: string): Promise<PointCloudOctree>;
-	public async loadPointCloud(url: string, requestManager: RequestManager): Promise<PointCloudOctree>;
+	public async loadPointCloud(url: string, reqManager: RequestManager): Promise<PointCloudOctree>;
 	public async loadPointCloud(
 		url: string,
 		reqManager: string | RequestManager,

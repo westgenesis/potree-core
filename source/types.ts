@@ -4,6 +4,7 @@ import {PointCloudOctreeGeometry} from './point-cloud-octree-geometry';
 import {Box3, Camera, Sphere, Vector3, WebGLRenderer} from 'three';
 import {PointCloudOctree} from './point-cloud-octree';
 import {LRU} from './utils/lru';
+import {PointCloudMaterial} from './materials';
 
 
 export interface IPointCloudTreeNode {
@@ -53,6 +54,7 @@ export interface IPotree {
 
   loadPointCloud(url: string, baseUrl: string): Promise<PointCloudOctree>;
   loadPointCloud(url: string, requestManager: RequestManager): Promise<PointCloudOctree>;
+  loadPointCloud(url: string, requestManager: string | RequestManager, material?: PointCloudMaterial): Promise<PointCloudOctree>;
 
   updatePointClouds(
     pointClouds: PointCloudOctree[],
