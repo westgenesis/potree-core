@@ -1,7 +1,7 @@
 # Potree Core 2.0
 
 [![npm version](https://badge.fury.io/js/potree-core.svg)](https://badge.fury.io/js/potree-core)
-[![GitHub version](https://badge.fury.io/gh/tentone%2Fpotree-core.svg)](https://badge.fury.io/gh/tentone%2Fpotree-core)
+[![GitHub version](https://badge.fury.io/gh/westgenesis%2Fpotree-core.svg)](https://badge.fury.io/gh/westgenesis%2Fpotree-core)
 
  - This project was originally based on [Potree Viewer 1.6](https://github.com/potree/potree) and is now since version 2.0 based on the [shiukaheng fork](https://github.com/shiukaheng/potree-loader) of the [Potree-Loader](https://github.com/pnext/three-loader).
  - Potree is a web based pouint cloud visualizer project created by Markus Schütz.
@@ -11,10 +11,10 @@
    - EXT_frag_depth, WEBGL_depth_texture, OES_vertex_array_object
 
 ## Demo
- - Live demo at https://tentone.github.io/potree-core/
+ - Live demo at https://westgenesis.github.io/potree-core/
  - Double click the models to raycast the scene and create marker points.
 
-<img src="https://raw.githubusercontent.com/tentone/potree-core/master/screenshot.png" width="700">
+<img src="https://raw.githubusercontent.com/westgenesis/potree-core/master/screenshot.png" width="700">
 
 
 ## Example

@@ -1,10 +1,10 @@
 {
-	"name": "@westgenesis/potree-core",
+	"name": "potree-core-pro",
 	"version": "2.0.12",
 	"description": "Potree wrapper for three.js applications",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/tentone/potree-core.git"
+		"url": "https://github.com/westgenesis/potree-core.git"
 	},
 	"files": [
 		"dist"
@@ -26,7 +26,7 @@
 		"3d",
 		"webgl"
 	],
-	"author": "Tentone",
+	"author": "westgenesis",
 	"license": "MIT",
 	"peerDependencies": {
 		"three": ">0.125.0"
